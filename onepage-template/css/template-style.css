@@ -64,7 +64,8 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	opacity: 1;
 }
 nav {
-	background: none repeat scroll 0 0 #00283a;
+	opacity: 0.95;
+	background: none repeat scroll 0 0 #2c2172;
 }
 header {
 	border-bottom: 4px solid rgba(0, 40, 58, 0.53);
@@ -97,9 +98,9 @@ p.logo strong {
 	-webkit-transition: all 0.20s linear 0s;
 }
 .top-nav li a:hover, .top-nav li.active-item a {
-	background: none repeat scroll 0 0 #00283a;
-	border-top: 2px solid #92c500;
-	color: #92c500;
+	background: none repeat scroll 0 0 #2c2172;
+	border-top: 2px solid #56d6ed;
+	color: #56d6ed;
 	position: relative;
 }
 #carousel .text {
@@ -182,7 +183,7 @@ p.logo strong {
 	z-index: 2;
 }
 #features i {
-	background: none repeat scroll 0 0 #92c500;
+	background: none repeat scroll 0 0 #2c2172;
 	border-radius: 100px;
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
 	color: #fff;
@@ -205,7 +206,7 @@ p.logo strong {
 	line-height: 1.5em;
 }
 #about-us {
-	background: none repeat scroll 0 0 #00283a;
+	background: none repeat scroll 0 0 #2c2172;
 	clear: both;
 }
 #about-us:after {
@@ -224,10 +225,11 @@ article h2 {
 	font-weight: 900;
 	letter-spacing: -2px;
 	line-height: 0.9;
-	margin: 0 0 0.625em 0
+	margin: 0 0 0.225em 0
 }
 article h1, article h2, article h3, article h4, article h5, article h6 {
 	color: #fff;
+	font-size: 50px;
 }
 .media-container {
   overflow: hidden;
@@ -267,9 +269,9 @@ article ul li:before {
 	width: 20px;
 }
 .about-us-icons i {
-	border: 2px solid #92c500;
+	border: 2px solid #55d5ef;
 	border-radius: 100px;
-	color: #92c500;
+	color: #55d5ef;
 	display: block;
 	float: left;
 	font-size: 1.6em;
@@ -368,10 +370,12 @@ a.tab-label:hover, a.tab-label.active-btn {
 	color: #fff;
 }
 #services {
-	background: #6f9600 none repeat scroll 0 0;
+	background: /*#6f9600*/ none repeat scroll 0 0;
+	background:linear-gradient(to left top,#49cff7 ,#9dfbb6);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
 }
+
 #services h2 {
 	color: #fff;
 	margin: 0 0 1.25em;
@@ -419,7 +423,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 	color: #fff;
 	display: block;
 	float: none;
-	height: 130px;
+	height: 160px;
 	padding: 0.625em 0;
 	text-align: center;
 	width: 100%;
@@ -436,7 +440,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 	border-bottom: 1px solid #e0e0e0;
 	border-right: 1px solid #e0e0e0;
 	border-top: 1px solid #e0e0e0;
-	height: 130px;
+	height: 160px;
 	padding: 0.625em 1.25em;
 }
 .news-text p {
