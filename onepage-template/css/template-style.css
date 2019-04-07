@@ -58,6 +58,35 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	-moz-transition: all 0.20s linear 0s;
 	-webkit-transition: all 0.20s linear 0s;
 }
+
+.go{
+	background:linear-gradient(to left,#49cff7 ,#9dfbb6);
+	border : 1.5px solid white ; 
+	border-radius : 50px ; 
+	color : white ; 
+	font-family : Century  Gothic ; 
+}
+.go:hover{
+	animation-name: but ; 
+	animation-duration : 0.75s ; 
+	background : transparent ; 
+	border : #49cff7 1.5px solid ; 
+	color : #49cff7 ; 
+}
+@keyframes but{
+	from{
+		background:linear-gradient(to left,#49cff7 ,#9dfbb6);
+		color : white ;
+		border : 1.5px solid white ; 
+	}
+	to{
+		background : transparent ; 
+	border : #49cff7 1.5px solid ; 
+	color : #49cff7 ; 		
+	}
+}
+
+
 #topbar i:hover {
 	color: #92c500;
 	cursor: pointer;
@@ -65,6 +94,7 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 }
 nav {
 	opacity: 0.95;
+	z-index : 5;
 	background: none repeat scroll 0 0 #2c2172;
 }
 header {
@@ -106,7 +136,6 @@ p.logo strong {
 #carousel .text {
 	position: absolute;
 	top: 40%;
-	z-index: 10;
 }
 .item {
 	overflow: hidden;
@@ -123,7 +152,7 @@ p.logo strong {
 	width: 30px;
 }
 #carousel .text h2 {
-	background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
+	background: none repeat scroll 0 0 /*rgba(146, 197, 0, 0.8)*/#49cff7;
 	color: #fff;
 	display: inline-block;
 	font-size: 2em;
@@ -536,6 +565,12 @@ footer p, footer a:visited, footer a, footer a:hover {
   	line-height: 1.625em;
   	text-align: center;
   }
+  #mob{
+  
+margin-top: -4%;
+
+  }
+
   .social.right {
   	float: none;
   }
